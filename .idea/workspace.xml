@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Добавлен HelloWorld">
-      <change afterPath="$PROJECT_DIR$/src/HelloUser.java" afterDir="false" />
+    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Добавлен HelloUser">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chetnoe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChetnoePoriadock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrChetnoePoriadok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrSeasons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seasons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Whileeee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +46,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Cf5ZTWfPiSx6MYFhhGYwgajXSq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,16 +58,63 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\IdeaProjects\a\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.Whileeee">
+    <configuration name="ChetnoePoriadock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChetnoePoriadock" />
+      <module name="teach-me-skills" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoWhile" />
+      <module name="teach-me-skills" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrChetnoePoriadok" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrChetnoePoriadok" />
+      <module name="teach-me-skills" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrSeasons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrSeasons" />
+      <module name="teach-me-skills" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Whileeee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Whileeee" />
+      <module name="teach-me-skills" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Whileeee" />
+        <item itemvalue="Application.DoWhile" />
+        <item itemvalue="Application.OrChetnoePoriadok" />
+        <item itemvalue="Application.ChetnoePoriadock" />
+        <item itemvalue="Application.OrSeasons" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659456496462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавлен HelloUser">
+      <created>1659456844410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659456844410</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +167,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлен HelloWorld" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен HelloWorld" />
+    <MESSAGE value="Добавлен HelloUser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен HelloUser" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
