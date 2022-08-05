@@ -1,6 +1,8 @@
+package classwork_lesson3;
+
 import java.util.Random;
 
-public class OrSeasons {
+public class OrSeasonsSwitch {
     public static void main(String[] args) {
         Random r = new Random();
         int randomValue = r.nextInt(12);

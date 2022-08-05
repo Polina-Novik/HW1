@@ -4,20 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Добавлен HelloUser">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chetnoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChetnoePoriadock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrChetnoePoriadok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrSeasons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seasons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Whileeee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joio.java" afterDir="false" />
+    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Добавлены упражнения урока 3:&#10;Работа на занятии и домашняя работа">
+      <change afterPath="$PROJECT_DIR$/src/homework_lesson3/Bank_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_lesson3/FiveCycle_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_lesson3/GuessTheNumber_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_lesson3/Multiplication_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_lesson3/Rainbow_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_lesson3/RandomTemperature_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_lesson3/SevenCycle_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_lesson3/Squares_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_lesson3/Summation_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_lesson3/Temperature_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chetnoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork_lesson3/Chetnoe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChetnoePoriadock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork_lesson3/ChetnoePoriadockFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork_lesson3/DoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework_lesson2/HelloUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork_lesson2/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrChetnoePoriadok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork_lesson3/OrChetnoePoriadok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrSeasons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork_lesson3/OrSeasonsSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seasons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork_lesson3/Seasons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Whileeee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork_lesson3/Whileeee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joio.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +43,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="homework/Lesson-2_sout" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/HelloWorld.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/classwork_lesson2/HelloWorld.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,49 +79,79 @@
       <recent name="C:\Users\Asus\IdeaProjects\a\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Whileeee">
-    <configuration name="ChetnoePoriadock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChetnoePoriadock" />
+  <component name="RunManager" selected="Application.GuessTheNumber_5">
+    <configuration name="FiveCycle_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_lesson3.FiveCycle_6" />
       <module name="teach-me-skills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoWhile" />
+    <configuration name="GuessTheNumber_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_lesson3.GuessTheNumber_5" />
       <module name="teach-me-skills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrChetnoePoriadok" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OrChetnoePoriadok" />
+    <configuration name="SevenCycle_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_lesson3.SevenCycle_4" />
       <module name="teach-me-skills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrSeasons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OrSeasons" />
+    <configuration name="Summation_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_lesson3.Summation_3" />
       <module name="teach-me-skills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Whileeee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Whileeee" />
+    <configuration name="Temperature_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_lesson3.Temperature_1" />
       <module name="teach-me-skills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Whileeee" />
-        <item itemvalue="Application.DoWhile" />
-        <item itemvalue="Application.OrChetnoePoriadok" />
-        <item itemvalue="Application.ChetnoePoriadock" />
-        <item itemvalue="Application.OrSeasons" />
+        <item itemvalue="Application.GuessTheNumber_5" />
+        <item itemvalue="Application.FiveCycle_6" />
+        <item itemvalue="Application.SevenCycle_4" />
+        <item itemvalue="Application.Temperature_1" />
+        <item itemvalue="Application.Summation_3" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659456844410</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавлен HelloUser">
+      <created>1659721531433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659721531433</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +214,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлен HelloWorld" />
     <MESSAGE value="Добавлен HelloUser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен HelloUser" />
+    <MESSAGE value="Добавлены упражнения урока 3:&#10;Работа на занятии и домашняя работа" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены упражнения урока 3:&#10;Работа на занятии и домашняя работа" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

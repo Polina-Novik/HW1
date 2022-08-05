@@ -1,3 +1,5 @@
+package classwork_lesson3;
+
 public class OrChetnoePoriadok {
     public static void main(String[] args) {
 

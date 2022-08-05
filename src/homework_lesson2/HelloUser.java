@@ -1,3 +1,5 @@
+package homework_lesson2;
+
 public class HelloUser {
     public static void main(String[] args) {
         System.out.println("Enter your name ");

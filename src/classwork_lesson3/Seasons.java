@@ -1,3 +1,5 @@
+package classwork_lesson3;
+
 import java.util.Random;
 
 public class Seasons {

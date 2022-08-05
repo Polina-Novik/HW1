@@ -1,3 +1,5 @@
+package classwork_lesson2;
+
 import java.util.Random;
 
 public class HelloWorld {

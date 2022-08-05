@@ -1,4 +1,6 @@
-public class ChetnoePoriadock {
+package classwork_lesson3;
+
+public class ChetnoePoriadockFor {
     public static void main(String[] args) {
         //for(int i=0 или 1 типа нач знач; условие? i<10 INT>0 при этом идет и невыполнвыход; ччо хотим i++
         for (int i = 0; i <= 10; i++) {
