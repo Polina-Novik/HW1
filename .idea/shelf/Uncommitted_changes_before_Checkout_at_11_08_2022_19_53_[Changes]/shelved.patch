@@ -1,0 +1,61 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,51 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Добавлены упражнения урока 3:&#10;Работа на занятии и домашняя работа">
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/classwork/array/ChetnyiMassiv.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/classwork/array/ExampleArrayLength.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/classwork/array/KvadratMassiv.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/classwork/array/SortirovkaAndZamenaElementov.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/homework/FifthZero.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/homework/FirstDelete.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/homework/FourthChetnyi.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/homework/SecondMaxMin.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/homework/StrangeHusband.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/homework/ThirdTwoArrays.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson4/homework/ZeroNumberInArray.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/classwork/Chess.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/classwork/NewChess.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/classwork/Sotka.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/classwork/dvumernoe.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/classwork/konsp.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/homework/FifthDiagonals.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/homework/FirstThreeDimensional.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/homework/FourthSum.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/homework/Pascal.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/homework/SixthIncrease.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson5/homework/ThirdMultiplication.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/classwork_lesson2/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson2/classwork/HelloWorld.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/classwork_lesson3/Chetnoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/classwork/Chetnoe.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/classwork_lesson3/ChetnoePoriadockFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/classwork/ChetnoePoriadockFor.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/classwork_lesson3/DoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/classwork/DoWhile.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/classwork_lesson3/OrChetnoePoriadok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/classwork/OrChetnoePoriadok.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/classwork_lesson3/OrSeasonsSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/classwork/OrSeasonsSwitch.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/classwork_lesson3/Seasons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/classwork/Seasons.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/classwork_lesson3/Whileeee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/classwork/Whileeee.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson2/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson2/homework/HelloUser.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson3/Bank_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/homework/Bank_8.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson3/FiveCycle_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/homework/FiveCycle_6.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson3/GuessTheNumber_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/homework/GuessTheNumber_5.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson3/Multiplication_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/homework/Multiplication_9.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson3/Rainbow_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/homework/Rainbow_2.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson3/RandomTemperature_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/homework/RandomTemperature_1.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson3/SevenCycle_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/homework/SevenCycle_4.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson3/Squares_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/homework/Squares_7.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson3/Summation_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/homework/Summation_3.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/homework_lesson3/Temperature_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/polina/lesson3/homework/Temperature_1.java" afterDir="false" />
+-    </list>
++    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Добавлены упражнения урока 3:&#10;Работа на занятии и домашняя работа" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
