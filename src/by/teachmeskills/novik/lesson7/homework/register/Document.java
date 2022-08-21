@@ -2,8 +2,8 @@ package by.teachmeskills.novik.lesson7.homework.register;
 
 public abstract class Document implements Printable {
 
-    int documentNumber;
-    String documentDate;
+    protected int documentNumber;
+    protected String documentDate;
 
     public Document(int documentNumber, String documentDate) {
         this.documentNumber = documentNumber;
