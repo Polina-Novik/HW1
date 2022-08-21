@@ -10,42 +10,50 @@ public class ATMtest {
         System.out.println("To add money to the machine press 1, to withdraw money press 2, to view the amount of money in the machine press 3, to exit press 4");
         Scanner scanner = new Scanner(System.in);
         int press = scanner.nextInt();
-        while (press != 4) {
+        while (true) {
             switch (press) {
                 case 1:
                     System.out.println("1. Add 20");
                     System.out.println("2. Add 50");
                     System.out.println("3. Add 100");
-                    int choose= scanner.nextInt();
+                    int choose = scanner.nextInt();
                     while (choose < 1 || choose > 3) {
                         System.out.println("Mistake, repeat input");
                         choose = scanner.nextInt();
                     }
                     System.out.println("How many?");
-                    int amount=scanner.nextInt();
-                    while (amount<=0) {
+                    int amount = scanner.nextInt();
+                    while (amount <= 0) {
                         System.out.println("Value must be more than 0");
-                        amount=scanner.nextInt();
+                        amount = scanner.nextInt();
                     }
-                    int tw=0,fi=0,hu=0;
+                    int tw = 0, fi = 0, hu = 0;
                     switch (choose) {
-                        case 1: tw=amount; break;
-                        case 2: fi=amount; break;
-                        case 3: hu=amount; break;
-                        }
-                        a.addMoney(tw,fi,hu);
+                        case 1:
+                            tw = amount;
+                            break;
+                        case 2:
+                            fi = amount;
+                            break;
+                        case 3:
+                            hu = amount;
+                            break;
+                    }
+                    a.addMoney(tw, fi, hu);
                     break;
                 case 2:
                     System.out.println("how much money do you want to withdraw?");
-                    int value= scanner.nextInt();
+                    int value = scanner.nextInt();
                     a.removeMoney(value);
                     break;
-                case 3: a.getSum();
-                break;
+                case 3:
+                    a.getSum();
+                    break;
                 default:
                     System.out.println("Mistake");
                     break;
-                case 4: return;
+                case 4:
+                    return;
             }
             System.out.println("To add money to the machine press 1, to withdraw money press 2, to view the amount of money in the machine press 3, to exit press 4");
             press = scanner.nextInt();

@@ -71,6 +71,6 @@ public class CreditCardTest {
             System.out.println("To change the balance enter 1, to check the balance enter 2, to exit enter 3");
             enter = scanner.nextInt();
         }
-        while (enter != 3);
+        while (true);
     }
 }

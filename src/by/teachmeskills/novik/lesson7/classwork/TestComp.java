@@ -5,7 +5,7 @@ public class TestComp {
         Computer c=new PK(); //вместо комп было пк
         //c.setCost(10);
 
-        Computer l=new Laptop(5);
+        Computer l=new Laptop(5,"l");
         //l.setCost(10);
          //сеттер войд, нельзя печатать
         Computer[] arr = new Computer[2];

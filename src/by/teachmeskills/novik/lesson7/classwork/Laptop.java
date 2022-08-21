@@ -2,8 +2,8 @@ package by.teachmeskills.novik.lesson7.classwork;
 
 public final class Laptop extends Computer{ //в компе нужен геттер и сеттер
     //финал запрещает менять класс другим, никто не может от него наслед
-    public Laptop (int batteryLife) {
-        super("blablabla"); //вызывает конструктор метода супер, выделить супер и ctrl B ссылка на родителя
+    public Laptop (int batteryLife, String s) {
+        super(s); //вызывает конструктор метода супер, выделить супер и ctrl B ссылка на родителя
         this.batteryLife=batteryLife;
     }
    /*final*/ int batteryLife; //только 1 раз можно присвоить значение. пр один раз 3, потом 5 никак

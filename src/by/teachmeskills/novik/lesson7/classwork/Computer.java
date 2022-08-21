@@ -2,7 +2,7 @@ package by.teachmeskills.novik.lesson7.classwork;
 
 public abstract class Computer { //абстракт чтоб не создать комп, комп слишк абстрактно
     protected int cost; //видно только всем наследникам и в этом классе
-    String model;
+   private String model;
     int screenSize;
 public Computer(String model) { //будет в лаптопе  тоже требоваться модель
     this.model=model;

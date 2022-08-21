@@ -3,8 +3,9 @@ package by.teachmeskills.novik.lesson6.homework;
 public class Computer {
     private double price;
     private String model;
-    private HDD hdd = new HDD();
-    private RAM ram = new RAM();
+
+    private HDD hdd;
+    private RAM ram;
 
     @Override
     public String toString() {
@@ -15,6 +16,39 @@ public class Computer {
                 ", ram=" + ram +
                 '}';
     }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public HDD getHdd() {
+        return hdd;
+    }
+
+    public void setHdd(HDD hdd) {
+        this.hdd = hdd;
+    }
+
+    public RAM getRam() {
+        return ram;
+    }
+
+    public void setRam(RAM ram) {
+        this.ram = ram;
+    }
+
 
     public class HDD {
         private String nameH;
@@ -38,6 +72,30 @@ public class Computer {
                     ", typeH='" + typeH + '\'' +
                     '}';
         }
+
+        public String getNameH() {
+            return nameH;
+        }
+
+        public void setNameH(String nameH) {
+            this.nameH = nameH;
+        }
+
+        public int getVolumeH() {
+            return volumeH;
+        }
+
+        public void setVolumeH(int volumeH) {
+            this.volumeH = volumeH;
+        }
+
+        public String getTypeH() {
+            return typeH;
+        }
+
+        public void setTypeH(String typeH) {
+            this.typeH = typeH;
+        }
     }
 
 
@@ -60,6 +118,22 @@ public class Computer {
                     ", volumeR=" + volumeR +
                     '}';
         }
+
+        public String getNameR() {
+            return nameR;
+        }
+
+        public void setNameR(String nameR) {
+            this.nameR = nameR;
+        }
+
+        public int getVolumeR() {
+            return volumeR;
+        }
+
+        public void setVolumeR(int volumeR) {
+            this.volumeR = volumeR;
+        }
     }
 
 
@@ -74,6 +148,16 @@ public class Computer {
 
     }
 
+    public Computer() {
+        this.model = "default";
+        this.price = 10;
+        System.out.println("Computer{" +
+                "price=" + price +
+                ", model='" + model + '\'' +
+
+                '}');
+    }
+
     public Computer(double price, String model, RAM ram, HDD hdd) {
         this.price = price;
         this.model = model;
@@ -85,5 +169,9 @@ public class Computer {
                 ", hdd=" + hdd +
                 ", ram=" + ram +
                 '}');
+        this.ram = new RAM();
+        this.hdd = new HDD();
+
     }
+
 }
