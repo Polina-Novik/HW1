@@ -4,34 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Добавлены упражнения уроков 6 и 7:&#10;Работа на занятии и домашняя работа">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/ATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/ATMtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/ATMtest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/ComputerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson6/homework/CreditCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/classwork/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/classwork/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/classwork/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/classwork/Laptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/classwork/TestComp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/classwork/TestComp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Figure/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/figure/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Figure/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/figure/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Figure/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/figure/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Figure/TestFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/figure/TestFigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Figure/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/figure/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Post/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/post/Accountant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Post/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/post/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Post/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/post/Postable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Post/TestPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/post/TestPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Post/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/post/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Register/ContractGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/ContractGoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Register/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Register/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Register/FinancialInvoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/FinancialInvoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Register/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Register/Printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Printable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/Register/h.java" beforeDir="false" />
+    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="merge в master">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_08_2022_19_53_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_08_2022_19_53_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_08_2022_19_53__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_08_2022_17_52_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_08_2022_17_52_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_08_2022_17_52__Changes_.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661005529171</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="merge в master">
+      <created>1661093781162</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661093781162</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +203,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="homework/Lesson-3,4,5" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -239,7 +225,8 @@
     <MESSAGE value="Добавлен HelloUser" />
     <MESSAGE value="Добавлены упражнения урока 3:&#10;Работа на занятии и домашняя работа" />
     <MESSAGE value="Добавлены упражнения уроков 6 и 7:&#10;Работа на занятии и домашняя работа" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлены упражнения уроков 6 и 7:&#10;Работа на занятии и домашняя работа" />
+    <MESSAGE value="merge в master" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge в master" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
