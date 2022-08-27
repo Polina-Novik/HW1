@@ -4,13 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="merge в master">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_08_2022_19_53_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_08_2022_19_53_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_08_2022_19_53__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_08_2022_17_52_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_08_2022_17_52_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_08_2022_17_52__Changes_.xml" afterDir="false" />
+    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/NewMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/classwork/Abc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Dantist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/DoctorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Healable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/MedicalPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Surgeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Therapist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/phone/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/phone/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/classwork/Garden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/classwork/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/classwork/TreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/AgainstAllCandidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/IllegalCandidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/OfficialCandidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/OurHonestVoteAccounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/RandomCandidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/Voter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/ContractGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/ContractGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/FinancialInvoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/FinancialInvoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +44,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework/Lesson-3,4,5" />
+        <entry key="$PROJECT_DIR$" value="Lesson-8,9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +67,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Cf5ZTWfPiSx6MYFhhGYwgajXSq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,6 +82,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
@@ -184,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661093781162</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="merge в master">
+      <created>1661093861487</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661093861488</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,5 +265,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/teach_me_skills$TreeTest.ic" NAME="TreeTest Coverage Results" MODIFIED="1661359982062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>by.teachmeskills.novik.lesson9.classwork.*</FILTER>
+    </SUITE>
   </component>
 </project>

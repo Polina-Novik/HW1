@@ -1,13 +1,17 @@
 package by.teachmeskills.novik.lesson7.homework.register;
 
+
 import java.text.SimpleDateFormat;
 
 import java.util.Date;
 import java.util.Scanner;
 
-public class Main {
+public class NewMain {
+
+
     public static void main(String[] args) {
-        Document[] arr = new Document[10];
+        Register r = new Register(10);
+
 
         System.out.println("Select contract type\n1.Contract for the supply of goods\n2.Contract with an employee\n3.Financial Invoice\n4.End");
         Scanner scanner = new Scanner(System.in);
@@ -19,7 +23,7 @@ public class Main {
         int choose = scanner.nextInt();
 
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        for (int i = 0, j = 1; i < arr.length; j++) {
+        for (int i = 0, j = 1; i < 10; j++) {
             switch (choose) {
                 case 1:
                     System.out.println("Please enter goods number");
@@ -28,8 +32,7 @@ public class Main {
                     int documentNumber = j;
                     String goodsType = console.nextLine();
                     String documentDate = simpleDateFormat.format(new Date());
-                    arr[i] = new ContractGoods(goodsType, goodsNumber, documentNumber, documentDate);
-
+                    r.addDocument(new ContractGoods(goodsType, goodsNumber, documentNumber, documentDate));
                     break;
                 case 2:
                     System.out.println("Please enter contract end date");
@@ -39,7 +42,7 @@ public class Main {
                     String name = c.nextLine();
 
                     documentDate = simpleDateFormat.format(new Date());
-                    arr[i] = new Employee(endDate, name, documentNumber, documentDate);
+                    r.addDocument(new Employee(endDate, name, documentNumber, documentDate));
 
                     break;
                 case 3:
@@ -50,25 +53,22 @@ public class Main {
                     int code = co.nextInt();
 
                     documentDate = simpleDateFormat.format(new Date());
-                    arr[i] = new FinancialInvoice(summ, code, documentNumber, documentDate);
+                    r.addDocument(new FinancialInvoice(summ, code, documentNumber, documentDate));
 
                     break;
                 case 4:
-                    for (Printable pr : arr) {
-                        pr.print();
-                    }
+
                     break;
             }
             i++;
-            if (i < arr.length) {
+            if (i < 10 && choose != 4) {
                 System.out.println("Select contract type\n1.Contract for the supply of goods\n2.Contract with an employee\n3.Financial Invoice\n4.End");
                 choose = scanner.nextInt();
             }
         }
-        if (choose != 4) {
-            for (Printable pr : arr) {
-                pr.print();
-            }
-        }
+
+        r.print();
+
     }
 }
+

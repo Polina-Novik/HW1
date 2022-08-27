@@ -9,6 +9,7 @@ public class FinancialInvoice extends Document implements Printable {
         this.summ = summ;
         this.code = code;
     }
+
     @Override
     public int getDocumentNumber() {
         return super.getDocumentNumber();
@@ -18,8 +19,9 @@ public class FinancialInvoice extends Document implements Printable {
     public String getDocumentDate() {
         return super.getDocumentDate();
     }
+
     public void print() {
-        System.out.println("Financial Invoice\n-Monthly total: " + summ + "\n-Document Date:" + documentDate + "\n-Document Number: " + documentNumber + "\n-Department code: " + code);
+        System.out.println("Financial Invoice\n-Monthly total: " + summ + "\n-Document Date:" + getDocumentDate() + "\n-Document Number: " + getDocumentNumber() + "\n-Department code: " + code);
     }
 
     public int getSumm() {

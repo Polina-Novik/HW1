@@ -28,7 +28,7 @@ public class ContractGoods extends Document implements Printable {
 
     @Override
     public void print() {
-        System.out.println("Contract for the supply of goods\n-Document Number: " + documentNumber + "\n-Goods Type: " + goodsType + "\n-Number of goods: " + goodsNumber + "\n-Document Date: " + documentDate);
+        System.out.println("Contract for the supply of goods\n-Document Number: " + getDocumentNumber() + "\n-Goods Type: " + goodsType + "\n-Number of goods: " + goodsNumber + "\n-Document Date: " + getDocumentDate());
     }
 
     public String getGoodsType() {

@@ -4,11 +4,18 @@ public class Employee extends Document implements Printable {
     private String endDate;
     private String name;
 
-    public Employee(String endDate, String name, int DocumentNumber, String DocumentDate) {
-        super(DocumentNumber, DocumentDate);
+    public void setDocumentNumber(int documentNumber) {
+        super.setDocumentNumber(documentNumber);
+    }
+
+    public Employee(String endDate, String name, int documentNumber, String documentDate) {
+        super(documentNumber, documentDate);
+
+        //supergetDN for private
         this.endDate = endDate;
         this.name = name;
     }
+
     @Override
     public int getDocumentNumber() {
         return super.getDocumentNumber();
@@ -18,8 +25,9 @@ public class Employee extends Document implements Printable {
     public String getDocumentDate() {
         return super.getDocumentDate();
     }
+
     public void print() {
-        System.out.println("Contract with an employee\n-Document Number: " + documentNumber + "\n-Document Date: " + documentDate + "\n-Contract end date: " + endDate + "\n-Employee name: " + name);
+        System.out.println("Contract with an employee\n-Document Number: " + getDocumentNumber() + "\n-Document Date: " + getDocumentDate() + "\n-Contract end date: " + endDate + "\n-Employee name: " + name);
     }
 
     public String getEndDate() {
