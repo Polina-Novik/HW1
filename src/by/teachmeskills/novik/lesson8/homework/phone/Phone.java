@@ -7,6 +7,22 @@ public class Phone {
     private String model;
     private int weight;
 
+    public Phone(int number, String model, int weight) {
+        this.number = number;
+        this.model = model;
+        this.weight = weight;
+    }
+
+    public Phone(int number, String model) {
+        this(number, model, 100);
+
+    }
+
+    public Phone() {
+        this.number = 1111111;
+        this.model = "default";
+        this.weight = 100;
+    }
 
     public int getNumber() {
         return number;
@@ -41,22 +57,6 @@ public class Phone {
                 '}';
     }
 
-    public Phone(int number, String model, int weight) {
-        this.number = number;
-        this.model = model;
-        this.weight = weight;
-    }
-
-    public Phone(int number, String model) {
-        this(number, model, 100);
-
-    }
-
-    public Phone() {
-        this.number = 1111111;
-        this.model = "default";
-        this.weight = 100;
-    }
 
     public void receiveCall(String name) {
         System.out.println("Calling " + name);

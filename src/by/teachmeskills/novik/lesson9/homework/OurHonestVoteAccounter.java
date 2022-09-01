@@ -8,32 +8,12 @@ public class OurHonestVoteAccounter {
         int r = random.nextInt(4);
         int rr = random.nextInt(4);
         int a = 0;
-        switch (r) {
-            case 0:
-                a = AgainstAllCandidate.agVotes;
-                break;
-            case 1:
-                a = IllegalCandidate.illVotes;
-                break;
-            case 2:
-                a = OfficialCandidate.offVotes;
-                break;
-            case 3:
-                a = RandomCandidate.randVotes;
-                break;
-        }
-        switch (rr) {
-            case 0:
-                AgainstAllCandidate.agVotes += a;
-                break;
-            case 1:
-                IllegalCandidate.illVotes += a;
-                break;
-            case 2:
-                OfficialCandidate.offVotes += a;
-            case 3:
-                RandomCandidate.randVotes += a;
-        }
+        a = getA(r, a);
+        extracted(rr, a);
+        zero(r);
+    }
+
+    private static void zero(int r) {
         switch (r) {
             case 0:
                 AgainstAllCandidate.agVotes = 0;
@@ -48,5 +28,38 @@ public class OurHonestVoteAccounter {
                 RandomCandidate.randVotes = 0;
                 break;
         }
+    }
+
+    private static void extracted(int rr, int a) {
+        switch (rr) {
+            case 0:
+                AgainstAllCandidate.agVotes += a;
+                break;
+            case 1:
+                IllegalCandidate.illVotes += a;
+                break;
+            case 2:
+                OfficialCandidate.offVotes += a;
+            case 3:
+                RandomCandidate.randVotes += a;
+        }
+    }
+
+    private static int getA(int r, int a) {
+        switch (r) {
+            case 0:
+                a = AgainstAllCandidate.agVotes;
+                break;
+            case 1:
+                a = IllegalCandidate.illVotes;
+                break;
+            case 2:
+                a = OfficialCandidate.offVotes;
+                break;
+            case 3:
+                a = RandomCandidate.randVotes;
+                break;
+        }
+        return a;
     }
 }

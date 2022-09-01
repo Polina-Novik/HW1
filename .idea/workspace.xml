@@ -4,37 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/NewMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/classwork/Abc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Dantist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/DoctorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Healable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/MedicalPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Surgeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/Therapist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/phone/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/phone/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/classwork/Garden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/classwork/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/classwork/TreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/AgainstAllCandidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/IllegalCandidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/OfficialCandidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/OurHonestVoteAccounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/RandomCandidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/Voter.java" afterDir="false" />
+    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Добавлены классные и домашние работы уроков 8,9">
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/classwork/lines/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/classwork/lines/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/classwork/lines/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/classwork/lines/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/classwork/lines/New.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/homework/Fifth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/homework/Fourth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/homework/Second.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/homework/Third3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/homework/first/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson10/homework/first/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/classwork/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/classwork/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/classwork/MySuperException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/classwork/NumberNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/classwork/TooBigNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/homework/first/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/homework/first/No1a2bException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/homework/first/NoFiveException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/homework/first/NotAbcException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/homework/first/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/homework/second/LoginPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/homework/second/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/homework/second/WrongLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson11/homework/second/WrongPasswordException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/ContractGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/ContractGoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/FinancialInvoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/FinancialInvoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/phone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/phone/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/phone/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/phone/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/OurHonestVoteAccounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson9/homework/OurHonestVoteAccounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson-8,9" />
+        <entry key="$PROJECT_DIR$" value="Lesson-10,11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,19 +73,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/a/src/by/teachmeskills/novik/lesson11/homework",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\IdeaProjects\a\src\by\teachmeskills\novik\lesson11\homework" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\IdeaProjects\a\src" />
     </key>
@@ -218,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661093861488</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавлены классные и домашние работы уроков 8,9">
+      <created>1661623187944</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661623187944</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +270,8 @@
     <MESSAGE value="Добавлены упражнения урока 3:&#10;Работа на занятии и домашняя работа" />
     <MESSAGE value="Добавлены упражнения уроков 6 и 7:&#10;Работа на занятии и домашняя работа" />
     <MESSAGE value="merge в master" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge в master" />
+    <MESSAGE value="Добавлены классные и домашние работы уроков 8,9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены классные и домашние работы уроков 8,9" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
