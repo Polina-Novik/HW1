@@ -16,15 +16,14 @@ public class Fourth {
     }
 
     private static void getPalindrome(String[] letterArr, int count) {
-        for (int i = 0, j = letterArr.length - 1; i < letterArr.length; i++, j--) {
-            if (letterArr[i].equals(letterArr[j])) {
+        for (int i = 0; i < letterArr.length; i++) {
+            if (letterArr[i].equals(letterArr[letterArr.length-i-1])) {
                 count++;
-            } else continue;
+            } else { System.out.println("This word is not a palindrome");
+           return;}
         }
         if (count == letterArr.length) {
             System.out.println("This word is a palindrome");
-        } else {
-            System.out.println("This word is not a palindrome");
         }
     }
 

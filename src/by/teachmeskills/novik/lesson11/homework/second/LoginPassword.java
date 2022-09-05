@@ -24,10 +24,6 @@ public class LoginPassword {
         return false;
     }
 
-    private static boolean testLogin() {
-        return false;
-    }
-
     private static boolean testPassword(String password, String comfirmPassword) throws WrongPasswordException {
         if (password.length() >= 20) throw new WrongPasswordException();
         if (password.contains(" ")) throw new WrongPasswordException();
@@ -41,7 +37,4 @@ public class LoginPassword {
         return false;
     }
 
-    private static boolean testPassword() {
-        return false;
-    }
 }

@@ -11,8 +11,8 @@ public class Fifth {
         String[] arr = str.split("");
         String newString = arr[0] + arr[0];
         for (int i = 1; i < arr.length; i++) {
-            arr[i] = arr[i] + arr[i];
-            newString = newString + arr[i];
+            arr[i] += arr[i];
+            newString += arr[i];
         }
         System.out.println(newString);
     }
