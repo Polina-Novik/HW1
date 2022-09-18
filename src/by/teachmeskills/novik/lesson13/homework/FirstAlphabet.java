@@ -6,18 +6,18 @@ import java.util.*;
 
 public class FirstAlphabet {
     public static void main(String[] args) {
-        List<String> arrayList = new ArrayList<>();
+        List<String> words = new ArrayList<>();
         try (FileReader fileReader = new FileReader("text.txt")) {
             Scanner scanner = new Scanner(fileReader);
             while (scanner.hasNextLine()) {
                 String text = scanner.nextLine();
                 text = text.toLowerCase();
-                text = text.replace('“', ' ').replace(',', ' ').replace('”', ' ');
-                arrayList.addAll(Arrays.asList(text.split(" ")));
+                text = text.replace("“", "").replace(',', ' ').replace('”', ' ');
+                words.addAll(Arrays.asList(text.split(" ")));
             }
-            Collections.sort(arrayList);
-            deleteSpaces(arrayList);
-            System.out.println(arrayList);
+            Collections.sort(words);
+            deleteSpaces(words);
+            System.out.println(words);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

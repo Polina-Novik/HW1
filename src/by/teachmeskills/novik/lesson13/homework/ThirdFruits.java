@@ -19,12 +19,12 @@ public class ThirdFruits {
             }
             System.out.println("Write subject");
             String subject = console.nextLine();
-            choosingCategory(foodMap, choose, subject);
+            fillFoodByCategory(foodMap, choose, subject);
         }
         System.out.println(foodMap);
     }
 
-    private static void choosingCategory(Map<String, List<String>> foodMap, int choose, String subject) {
+    private static void fillFoodByCategory(Map<String, List<String>> foodMap, int choose, String subject) {
         switch (choose) {
             case 1:
                 foodMap.get("Berries").add(subject);

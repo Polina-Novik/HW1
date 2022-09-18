@@ -8,9 +8,9 @@ import java.util.*;
 public class FourthStrings {
     public static void main(String[] args) {
         List<String> arrayList = new ArrayList<>();
-        try {
-            FileWriter fileWriter = new FileWriter("reverse.txt", true);
-            try (FileReader fileReader = new FileReader("Strings.txt")) {
+
+            try (FileWriter fileWriter = new FileWriter("reverse.txt", true);
+                 FileReader fileReader = new FileReader("Strings.txt")) {
                 Scanner scanner = new Scanner(fileReader);
                 while (scanner.hasNextLine()) {
                     arrayList.add(scanner.nextLine());
@@ -24,9 +24,7 @@ public class FourthStrings {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+
         try (FileReader secondReader = new FileReader("reverse.txt")) {
             Scanner scanner = new Scanner(secondReader);
             while (scanner.hasNextLine()) {
