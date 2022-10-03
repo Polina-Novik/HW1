@@ -1,6 +1,6 @@
 package by.teachmeskills.novik.lesson7.homework.register;
 
-public class FinancialInvoice extends Document implements Printable {
+public class FinancialInvoice extends Documentt implements Printable {
     private int summ;
     private int code;
 

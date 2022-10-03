@@ -1,6 +1,6 @@
 package by.teachmeskills.novik.lesson7.homework.register;
 
-public class Employee extends Document implements Printable {
+public class Employee extends Documentt implements Printable {
     private String endDate;
     private String name;
 

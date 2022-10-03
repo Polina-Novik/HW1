@@ -1,11 +1,11 @@
 package by.teachmeskills.novik.lesson7.homework.register;
 
-public abstract class Document implements Printable {
+public abstract class Documentt implements Printable {
 
     private int documentNumber;
     private String documentDate;
 
-    public Document(int documentNumber, String documentDate) {
+    public Documentt(int documentNumber, String documentDate) {
         this.documentNumber = documentNumber;
         this.documentDate = documentDate;
     }

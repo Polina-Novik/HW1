@@ -38,4 +38,13 @@ public class Person {
     public Optional<String> getOptionalNickname() { //this statement may be or not be
         return Optional.ofNullable(nickname); //or just of if ""
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", nickname='" + nickname + '\'' +
+                '}';
+    }
 }

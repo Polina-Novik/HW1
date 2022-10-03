@@ -1,9 +1,7 @@
 package by.teachmeskills.novik.lesson7.homework.register;
 
 
-import by.teachmeskills.novik.lesson7.classwork.Computer;
-
-public class ContractGoods extends Document implements Printable {
+public class ContractGoods extends Documentt implements Printable {
     private String goodsType;
     private int goodsNumber;
 

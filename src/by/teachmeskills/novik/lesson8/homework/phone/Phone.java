@@ -1,7 +1,5 @@
 package by.teachmeskills.novik.lesson8.homework.phone;
 
-import by.teachmeskills.novik.lesson7.homework.register.Document;
-
 public class Phone {
     private int number;
     private String model;
