@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<website>
+    <article>
+        <title>Parsing an XML File Using SAX Parser</title>
+        <content>SAX Parser's Lorem ipsum...</content>
+    </article>
+    <article>
+        <title>Parsing an XML File Using SAX Parser</title>
+        <content>SAX Parser's Lorem ipsum...</content>
+    </article>
+    <article>
+        <title>Parsing an XML File Using SAX Parser</title>
+        <content>SAX Parser's Lorem ipsum...</content>
+    </article>
+</website>

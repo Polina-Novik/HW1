@@ -4,29 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Added classwork and homework for lessons 14, 15">
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson16/classwork/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson16/classwork/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson16/classwork/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson16/classwork/StreamMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson16/classwork/StreamMainFrom15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson16/classwork/Tasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson17/classwork/RegexMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson17/classwork/RegexMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson17/homework/programs/EmptyPackageException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson17/homework/programs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson17/homework/programs/WriterOfFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson17/homework/programs/WrongFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson17/homework/wrongPackage/jjj.jjj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson17/homework/wrongPackage/my_file6.txt" afterDir="false" />
+    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Added classwork and homework for lessons 16, 17">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/glassfish_jaxb_core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/glassfish_jaxb_runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/projectlombok_lombok.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sax.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/ArticleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/ArticleList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/DOMParserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/telegram/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/telegram/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/telegram/XMLExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/telegram/XmlToObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/three/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/classwork/three/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/homework/NotOneXmlException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/homework/Parsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/homework/Sonnet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/homework/manyXml/a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/homework/manyXml/b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson18/homework/xml/data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson19/classwork/thread/MyRunnableClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson19/classwork/thread/MyRunnableMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson19/classwork/thread/MyTestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson19/classwork/thread/MyThreadMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson19/classwork/thread/counter/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson19/classwork/thread/counter/Counter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson19/classwork/thread/counter/NewMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson15/classwork/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson15/classwork/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/ContractGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/ContractGoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Documentt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/FinancialInvoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/FinancialInvoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson7/homework/register/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/phone/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson8/homework/phone/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson17/homework/programs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson17/homework/programs/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teach-me-skills.iml" beforeDir="false" afterPath="$PROJECT_DIR$/teach-me-skills.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,31 +89,33 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/a/src/by/teachmeskills/novik/lesson17/homework/wrongPackage",
+    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/a",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\IdeaProjects\a" />
       <recent name="C:\Users\Asus\IdeaProjects\a\src\by\teachmeskills\novik\lesson17\homework\wrongPackage" />
       <recent name="C:\Users\Asus\IdeaProjects\a\src\by\teachmeskills\novik\lesson11\homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\IdeaProjects\a\src\by\teachmeskills\novik\lesson18\homework\xml" />
       <recent name="C:\Users\Asus\IdeaProjects\a\src\by\teachmeskills\novik\lesson17\homework\files" />
       <recent name="C:\Users\Asus\IdeaProjects\a\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="FileReader1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson17.homework.programs.FileReader1" />
+  <component name="RunManager" selected="Application.XmlToObject">
+    <configuration name="DOMParserExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson18.classwork.DOMParserExample" />
       <module name="teach-me-skills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.teachmeskills.novik.lesson17.homework.programs.*" />
+          <option name="PATTERN" value="by.teachmeskills.novik.lesson18.classwork.telegram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson11.homework.first.First" />
+    <configuration name="Parsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson18.homework.Parsing" />
       <module name="teach-me-skills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.teachmeskills.novik.lesson11.homework.first.*" />
+          <option name="PATTERN" value="by.teachmeskills.novik.lesson18.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson17.homework.programs.Main" />
+    <configuration name="XMLExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson18.classwork.telegram.XMLExample" />
       <module name="teach-me-skills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.teachmeskills.novik.lesson17.homework.programs.*" />
+          <option name="PATTERN" value="by.teachmeskills.novik.lesson18.classwork.telegram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson13.classwork.listMapSet.MyMapMain" />
+    <configuration name="XmlToObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson18.classwork.telegram.XmlToObject" />
       <module name="teach-me-skills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.teachmeskills.novik.lesson13.classwork.listMapSet.*" />
+          <option name="PATTERN" value="by.teachmeskills.novik.lesson18.classwork.telegram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="heeeeeeeeeeeelp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson17.homework.programs.heeeeeeeeeeeelp" />
+    <configuration name="heeelp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson18.homework.heeelp" />
       <module name="teach-me-skills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.teachmeskills.novik.lesson17.homework.programs.*" />
+          <option name="PATTERN" value="by.teachmeskills.novik.lesson18.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.First" />
-        <item itemvalue="Application.FileReader1" />
-        <item itemvalue="Application.heeeeeeeeeeeelp" />
-        <item itemvalue="Application.MyMapMain" />
+        <item itemvalue="Application.XmlToObject" />
+        <item itemvalue="Application.XMLExample" />
+        <item itemvalue="Application.Parsing" />
+        <item itemvalue="Application.heeelp" />
+        <item itemvalue="Application.DOMParserExample" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662824665882</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added classwork and homework for lessons 16, 17">
+      <created>1664809999162</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664809999162</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +309,8 @@
     <MESSAGE value="Добавлены классные и домашние работы уроков 8,9" />
     <MESSAGE value="updated 10 and 11" />
     <MESSAGE value="Added classwork and homework for lessons 12, 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added classwork and homework for lessons 12, 13" />
+    <MESSAGE value="Added classwork and homework for lessons 16, 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added classwork and homework for lessons 16, 17" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
