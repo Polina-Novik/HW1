@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Added classwork and homework for lessons 18">
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson19/homework/FirstTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson19/homework/ReentrantLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson19/homework/Synchronized.java" afterDir="false" />
+    <list default="true" id="99a77f19-45a3-4ff6-9094-ad1e545e0ef5" name="Changes" comment="Added classwork and homework for lessons 19">
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson20/classwork/JDBSMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/teachmeskills/novik/lesson20/homework/TableStudents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teach-me-skills.iml" beforeDir="false" afterPath="$PROJECT_DIR$/teach-me-skills.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/a",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus/IdeaProjects/a&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\IdeaProjects\a" />
@@ -78,13 +78,26 @@
       <recent name="C:\Users\Asus\IdeaProjects\a\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstTask">
+  <component name="RunManager" selected="Application.JDBSMain">
     <configuration name="FirstTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson19.homework.FirstTask" />
       <module name="teach-me-skills" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="by.teachmeskills.novik.lesson19.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBSMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson20.classwork.JDBSMain" />
+      <module name="teach-me-skills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.teachmeskills.novik.lesson20.classwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,25 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson18.classwork.telegram.XMLExample" />
+    <configuration name="TableStudents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson20.homework.TableStudents" />
       <module name="teach-me-skills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.teachmeskills.novik.lesson18.classwork.telegram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XmlToObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.teachmeskills.novik.lesson18.classwork.telegram.XmlToObject" />
-      <module name="teach-me-skills" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.teachmeskills.novik.lesson18.classwork.telegram.*" />
+          <option name="PATTERN" value="by.teachmeskills.novik.lesson20.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBSMain" />
+        <item itemvalue="Application.TableStudents" />
         <item itemvalue="Application.FirstTask" />
         <item itemvalue="Application.NewMain" />
         <item itemvalue="Application.MyRunnableMain" />
-        <item itemvalue="Application.XmlToObject" />
-        <item itemvalue="Application.XMLExample" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665413132188</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added classwork and homework for lessons 19">
+      <created>1665415047775</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665415047775</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +294,8 @@
     <MESSAGE value="Added classwork and homework for lessons 12, 13" />
     <MESSAGE value="Added classwork and homework for lessons 16, 17" />
     <MESSAGE value="Added classwork and homework for lessons 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added classwork and homework for lessons 18" />
+    <MESSAGE value="Added classwork and homework for lessons 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added classwork and homework for lessons 19" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
