@@ -16,7 +16,7 @@ public class Main {
         /*C:/Users/Asus/IdeaProjects/a/src/by/teachmeskills/novik/lesson17/homework/emptyPackage/*/
         /*C:/Users/Asus/IdeaProjects/a/src/by/teachmeskills/novik/lesson17/homework/wrongPackage/*/
         Map<String, Document> documentMap = new HashMap<>();
-        String str = getString();
+        String str = getPackageName();
         File folder = new File(str);
         File[] contents = folder.listFiles();
         emptyPackage(contents);
@@ -25,28 +25,28 @@ public class Main {
             Matcher matcher;
             String phoneNumber = "";
             String email = "";
-            List<String> arrayList = new ArrayList<>();
-            Pattern pattern1 = Pattern.compile("^(.+)@(\\S+)$");
+            List<String> documentList = new ArrayList<>();
+            Pattern patternEmail = Pattern.compile("^(.+)@(\\S+)$");
             try (FileReader fileReader = new FileReader(file)) {
                 Scanner console = new Scanner(fileReader);
                 while (console.hasNextLine()) {
-                    String s = console.nextLine();
-                    if (s.length() == 22 && s.contains("-")) {
-                        arrayList.add(s);
-                    } else if (s.length() == 12 && s.contains("+(")) {
-                        phoneNumber = s;
+                    String line = console.nextLine();
+                    if (line.length() == 22 && line.contains("-")) {
+                        documentList.add(line);
+                    } else if (line.length() == 12 && line.contains("+(")) {
+                        phoneNumber = line;
                     } else {
 
-                        matcher = pattern1.matcher(s);
+                        matcher = patternEmail.matcher(line);
                         if (matcher.find()) {
-                            email = s;
+                            email = line;
                         }
                     }
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-            Document document = new Document(arrayList, phoneNumber, email);
+            Document document = new Document(documentList, phoneNumber, email);
             documentMap.put(filename, document);
         }
 
@@ -55,7 +55,7 @@ public class Main {
 
     private static String getFileName(File file) {
         String name = file.getName();
-        wrongFormat(name);
+        checkFormat(name);
         Pattern pattern = Pattern.compile(".txt$");
         Matcher matcher = pattern.matcher(name);
         String filename = "";
@@ -66,14 +66,14 @@ public class Main {
         return filename;
     }
 
-    private static String getString() {
+    private static String getPackageName() {
         System.out.println("Enter the package name");
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
         return str;
     }
 
-    private static void wrongFormat(String name) {
+    private static void checkFormat(String name) {
         try {
             getWrongFormat(name);
         } catch (WrongFormatException e) {

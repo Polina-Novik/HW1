@@ -8,22 +8,20 @@ public class TableStudents {
 
     public static final String URL = "jdbc:mysql://localhost:3306/test_db1";
     public static final String USERNAME = "root";
-    public static final String PASSWORD = " ";
+    public static final String PASSWORD = "";
     public static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     public static final String SELECT_ALL_USERS1_QUERY = "select * from users1";
     public static final String SELECT_ALL_USER_CITIES_QUERY = "select * from user_cities";
 
     public static void main(String[] args) throws ClassNotFoundException {
         Class.forName(JDBC_DRIVER);
-        Connection connection = null;
-        try {
-            connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            Statement statement = connection.createStatement();
-            getPrint(statement);
+        try (Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        Statement statement = connection.createStatement();) {
+            int studentsOrCities;
+            print(statement);
             Scanner scanner = new Scanner(System.in);
             Scanner console = new Scanner(System.in);
-            System.out.println("Change the table of students or cities\n1. Table of students\n2.Table of cities\n3.Exit");
-            int studentsOrCities = scanner.nextInt();
+            studentsOrCities = getStudentsOrCities(scanner);
             while (studentsOrCities < 3) {
                 switch (studentsOrCities) {
                     case 1:
@@ -32,18 +30,22 @@ public class TableStudents {
                     case 2:
                         changeCitiesTable(statement, scanner, console);
                         break;
-                    case 3:
-                        break;
                 }
-                getPrint(statement);
-                System.out.println("Change the table of students or cities\n1. Table of students\n2.Table of cities\n3.Exit");
-                studentsOrCities = scanner.nextInt();
+                print(statement);
+                studentsOrCities = getStudentsOrCities(scanner);
             }
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
 
+    }
+
+    private static int getStudentsOrCities(Scanner scanner) {
+        int studentsOrCities;
+        System.out.println("Change the table of students or cities\n1. Table of students\n2.Table of cities\n3.Exit");
+        studentsOrCities = scanner.nextInt();
+        return studentsOrCities;
     }
 
     private static void changeCitiesTable(Statement statement, Scanner scanner, Scanner console) throws SQLException {
@@ -92,21 +94,21 @@ public class TableStudents {
         }
     }
 
-    private static void getPrint(Statement statement) throws SQLException {
+    private static void print(Statement statement) throws SQLException {
         ResultSet resultSet = statement.executeQuery(SELECT_ALL_USERS1_QUERY);
 
-        System.out.println("id name course");
+        System.out.println("id\tname\tcourse");
         while (resultSet.next()) {
-            System.out.println(resultSet.getInt("id") + "      "
-                    + resultSet.getString("name") + "    "
+            System.out.println(resultSet.getInt("id") + "\t"
+                    + resultSet.getString("name") + "\t"
                     + resultSet.getInt("course"));
         }
-        ResultSet resultSet1 = statement.executeQuery(SELECT_ALL_USER_CITIES_QUERY);
+        resultSet = statement.executeQuery(SELECT_ALL_USER_CITIES_QUERY);
         System.out.println("Cities of students according to the id");
-        while (resultSet1.next()) {
-            System.out.println(resultSet1.getInt("id") + "      "
-                    + resultSet1.getString("name") + " "
-                    + resultSet1.getInt("user_id"));
+        while (resultSet.next()) {
+            System.out.println(resultSet.getInt("id") + "\t"
+                    + resultSet.getString("name") + "\t"
+                    + resultSet.getInt("user_id"));
         }
     }
 }

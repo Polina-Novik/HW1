@@ -20,14 +20,8 @@ public class FirstTask  {
         }
         t1.setPriority(Thread.MIN_PRIORITY);
         t1.start();
-        try {
-            t3.join();
-            t2.join();
-            t1.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println("End");
+
+
     }
 }
 
